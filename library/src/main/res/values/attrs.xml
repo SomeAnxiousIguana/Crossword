@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CrosswordView">
+        <attr name="cellSize" format="dimension" />
+        <attr name="defaultCellFillColor" format="color" />
+        <attr name="cheatedCellFillColor" format="color" />
+        <attr name="mistakeCellFillColor" format="color" />
+        <attr name="selectedWordFillColor" format="color" />
+        <attr name="selectedCellFillColor" format="color" />
+        <attr name="markedCellFillColor" format="color" />
+        <attr name="cellStrokeColor" format="color" />
+        <attr name="circleStrokeColor" format="color" />
+        <attr name="numberTextPadding" format="dimension" />
+        <attr name="numberTextSize" format="dimension" />
+        <attr name="answerTextPadding" format="dimension" />
+		<attr name="answerTextSize" format="dimension" />
+		<attr name="answerTextColor" format="color" />
+		<attr name="numberTextColor" format="color" />
+        <attr name="editable" format="boolean" />
+        <attr name="skipOccupiedOnType" format="boolean" />
+        <attr name="selectFirstUnoccupiedOnNav" format="boolean" />
+        <attr name="skipCompletedWords" format="boolean" />
+    </declare-styleable>
+</resources>
